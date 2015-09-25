@@ -1,0 +1,7 @@
+[$HOME/.config/vcsh/repo.d/tmux.git]
+checkout = vcsh clone 'https://github.com/hvhaugwitz/tmux-config.git' 'tmux'
+skip = not_found tmux
+
+[$HOME/.config/vcsh/repo.d/tmux-scripts.git]
+checkout = vcsh clone 'https://github.com/hvhaugwitz/tmux-scripts.git' 'tmux-scripts'
+skip = not_found tmux

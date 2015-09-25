@@ -1,0 +1,7 @@
+[DEFAULT]
+lib =
+    not_found() {
+        ! which $1 > /dev/null 2>&1
+    }
+
+include = cat ~/.config/mr/config.d/*

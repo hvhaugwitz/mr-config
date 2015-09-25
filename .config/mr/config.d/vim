@@ -1,0 +1,35 @@
+[$HOME/.config/vcsh/repo.d/vim.git]
+checkout = vcsh clone 'https://github.com/hvhaugwitz/vim-config.git' 'vim'
+skip = not_found vim
+
+[$HOME/.vim/bundle/airline]
+checkout = git clone 'https://github.com/bling/vim-airline.git' 'airline'
+skip = not_found vim
+
+[$HOME/.vim/bundle/commentary]
+checkout = git clone 'https://github.com/tpope/vim-commentary.git' 'commentary'
+skip = not_found vim
+
+[$HOME/.vim/bundle/gundo]
+checkout = git clone 'https://github.com/sjl/gundo.vim.git' 'gundo'
+skip = not_found vim
+
+[$HOME/.vim/bundle/pathogen]
+checkout = git clone 'https://github.com/tpope/vim-pathogen.git' 'pathogen'
+skip = not_found vim
+
+[$HOME/.vim/bundle/repeat]
+checkout = git clone 'https://github.com/tpope/vim-repeat.git' 'repeat'
+skip = not_found vim
+
+[$HOME/.vim/bundle/surround]
+checkout = git clone 'https://github.com/tpope/vim-surround.git' 'surround'
+skip = not_found vim
+
+[$HOME/.vim/bundle/syntastic]
+checkout = git clone 'https://github.com/scrooloose/syntastic.git' 'syntastic'
+skip = not_found vim
+
+[$HOME/.vim/bundle/tagbar]
+checkout = git clone 'https://github.com/majutsushi/tagbar' 'tagbar'
+skip = not_found vim || not_found ctags
