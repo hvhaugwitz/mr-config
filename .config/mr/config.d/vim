@@ -33,3 +33,11 @@ skip = not_found vim
 [$HOME/.vim/bundle/tagbar]
 checkout = git clone 'https://github.com/majutsushi/tagbar' 'tagbar'
 skip = not_found vim || not_found ctags
+
+[$HOME/.vim/bundle/easytags]
+checkout = git clone 'https://github.com/xolox/vim-easytags.git' 'easytags'
+skip = not_found vim || not_found ctags
+
+[$HOME/.vim/bundle/xolox-misc]
+checkout = git clone 'https://github.com/xolox/vim-misc.git' 'xolox-misc'
+skip = not_found vim || not_found ctags
