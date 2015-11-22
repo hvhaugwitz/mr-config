@@ -41,3 +41,7 @@ skip = not_found vim || not_found ctags
 [$HOME/.vim/bundle/xolox-misc]
 checkout = git clone 'https://github.com/xolox/vim-misc.git' 'xolox-misc'
 skip = not_found vim || not_found ctags
+
+[$HOME/.vim/bundle/gitgutter]
+checkout = git clone 'https://github.com/airblade/vim-gitgutter' 'gitgutter'
+skip = not_found vim || not_found git
