@@ -1,0 +1,7 @@
+[$HOME/.config/vcsh/repo.d/x11.git]
+checkout = vcsh clone 'https://github.com/hvhaugwitz/x11-config.git' 'x11'
+skip = not_found X
+
+[$HOME/.config/vcsh/repo.d/i3.git]
+checkout = vcsh clone 'https://github.com/hvhaugwitz/i3-config.git' 'i3'
+skip = not_found i3
