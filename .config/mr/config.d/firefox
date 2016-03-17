@@ -1,0 +1,3 @@
+[$HOME/.config/vcsh/repo.d/firefox.git]
+checkout = vcsh clone 'https://github.com/hvhaugwitz/firefox-config.git' 'firefox'
+skip = not_found firefox
