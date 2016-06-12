@@ -3,7 +3,7 @@ checkout = vcsh clone 'https://github.com/hvhaugwitz/vim-config.git' 'vim'
 skip = not_found vim
 
 [$HOME/.vim/bundle/airline]
-checkout = git clone 'https://github.com/bling/vim-airline.git' 'airline'
+checkout = git clone 'https://github.com/vim-airline/vim-airline.git' 'airline'
 skip = not_found vim
 
 [$HOME/.vim/bundle/commentary]
