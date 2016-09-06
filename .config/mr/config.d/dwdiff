@@ -1,0 +1,3 @@
+[$HOME/.config/vcsh/repo.d/dwdiff.git]
+checkout = vcsh clone 'https://github.com/hvhaugwitz/dwdiff-config.git' 'dwdiff'
+skip = not_found dwdiff
