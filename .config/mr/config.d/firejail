@@ -1,0 +1,3 @@
+[$HOME/.config/vcsh/repo.d/firejail.git]
+checkout = vcsh clone 'https://github.com/hvhaugwitz/firejail-config.git' 'firejail'
+skip = not_found firejail
