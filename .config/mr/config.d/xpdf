@@ -1,0 +1,3 @@
+[$HOME/.config/vcsh/repo.d/xpdf.git]
+checkout = vcsh clone 'https://github.com/hvhaugwitz/xpdf-config.git' 'xpdf'
+skip = not_found xpdf
