@@ -5,3 +5,7 @@ skip = not_found X
 [$HOME/.config/vcsh/repo.d/i3.git]
 checkout = vcsh clone 'https://github.com/hvhaugwitz/i3-config.git' 'i3'
 skip = not_found i3
+
+[$HOME/.config/vcsh/repo.d/i3blocks.git]
+checkout = vcsh clone 'https://github.com/hvhaugwitz/i3blocks-config.git' 'i3blocks'
+skip = not_found i3blocks
