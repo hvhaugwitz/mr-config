@@ -1,0 +1,3 @@
+[$HOME/.config/vcsh/repo.d/gnupg.git]
+checkout = vcsh clone 'https://github.com/hvhaugwitz/gnupg-config.git' 'gnupg'
+skip = not_found gpg
