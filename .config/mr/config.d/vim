@@ -26,6 +26,10 @@ skip = not_found vim
 checkout = git clone 'https://github.com/tpope/vim-surround.git' 'surround'
 skip = not_found vim
 
+[$HOME/.vim/bundle/cursorword]
+checkout = git clone 'https://github.com/itchyny/vim-cursorword.git' 'cursorword'
+skip = not_found vim
+
 [$HOME/.vim/bundle/ale]
 checkout = git clone 'https://github.com/w0rp/ale.git' 'ale'
 skip = not_found vim
