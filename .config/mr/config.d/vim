@@ -2,50 +2,46 @@
 checkout = vcsh clone 'https://github.com/hvhaugwitz/vim-config.git' 'vim'
 skip = not_found vim
 
-[$HOME/.vim/bundle/airline]
+[$HOME/.vim/pack/bundle/start/airline]
 checkout = git clone 'https://github.com/vim-airline/vim-airline.git' 'airline'
 skip = not_found vim
 
-[$HOME/.vim/bundle/commentary]
+[$HOME/.vim/pack/bundle/start/commentary]
 checkout = git clone 'https://github.com/tpope/vim-commentary.git' 'commentary'
 skip = not_found vim
 
-[$HOME/.vim/bundle/gundo]
+[$HOME/.vim/pack/bundle/start/gundo]
 checkout = git clone 'https://github.com/sjl/gundo.vim.git' 'gundo'
 skip = not_found vim
 
-[$HOME/.vim/bundle/pathogen]
-checkout = git clone 'https://github.com/tpope/vim-pathogen.git' 'pathogen'
-skip = not_found vim
-
-[$HOME/.vim/bundle/repeat]
+[$HOME/.vim/pack/bundle/start/repeat]
 checkout = git clone 'https://github.com/tpope/vim-repeat.git' 'repeat'
 skip = not_found vim
 
-[$HOME/.vim/bundle/surround]
+[$HOME/.vim/pack/bundle/start/surround]
 checkout = git clone 'https://github.com/tpope/vim-surround.git' 'surround'
 skip = not_found vim
 
-[$HOME/.vim/bundle/cursorword]
+[$HOME/.vim/pack/bundle/start/cursorword]
 checkout = git clone 'https://github.com/itchyny/vim-cursorword.git' 'cursorword'
 skip = not_found vim
 
-[$HOME/.vim/bundle/ale]
+[$HOME/.vim/pack/bundle/start/ale]
 checkout = git clone 'https://github.com/w0rp/ale.git' 'ale'
 skip = not_found vim
 
-[$HOME/.vim/bundle/tagbar]
+[$HOME/.vim/pack/bundle/start/tagbar]
 checkout = git clone 'https://github.com/majutsushi/tagbar' 'tagbar'
 skip = not_found vim || not_found ctags
 
-[$HOME/.vim/bundle/easytags]
+[$HOME/.vim/pack/bundle/start/easytags]
 checkout = git clone 'https://github.com/xolox/vim-easytags.git' 'easytags'
 skip = not_found vim || not_found ctags
 
-[$HOME/.vim/bundle/xolox-misc]
+[$HOME/.vim/pack/bundle/start/xolox-misc]
 checkout = git clone 'https://github.com/xolox/vim-misc.git' 'xolox-misc'
 skip = not_found vim || not_found ctags
 
-[$HOME/.vim/bundle/gitgutter]
+[$HOME/.vim/pack/bundle/start/gitgutter]
 checkout = git clone 'https://github.com/airblade/vim-gitgutter' 'gitgutter'
 skip = not_found vim || not_found git
