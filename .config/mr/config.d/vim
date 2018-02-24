@@ -45,3 +45,7 @@ skip = not_found vim || not_found ctags
 [$HOME/.vim/pack/bundle/start/gitgutter]
 checkout = git clone 'https://github.com/airblade/vim-gitgutter' 'gitgutter'
 skip = not_found vim || not_found git
+
+[$HOME/.vim/pack/bundle/start/gnupg]
+checkout = git clone 'https://github.com/jamessan/vim-gnupg' 'gnupg'
+skip = not_found vim || not_found gpg
