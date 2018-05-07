@@ -30,6 +30,10 @@ skip = not_found vim
 checkout = git clone 'https://github.com/w0rp/ale.git' 'ale'
 skip = not_found vim
 
+[$HOME/.vim/pack/bundle/start/grepper]
+checkout = git clone 'https://github.com/mhinz/vim-grepper' 'grepper'
+skip = not_found vim
+
 [$HOME/.vim/pack/bundle/start/tagbar]
 checkout = git clone 'https://github.com/majutsushi/tagbar' 'tagbar'
 skip = not_found vim || not_found ctags
