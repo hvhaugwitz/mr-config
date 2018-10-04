@@ -1,3 +1,3 @@
 [$HOME/.config/vcsh/repo.d/sbuild.git]
-checkout = vcsh clone 'https://github.com/hvhaugwitz/sbuild.git' 'sbuild'
+checkout = vcsh clone 'https://github.com/hvhaugwitz/sbuild-config.git' 'sbuild'
 skip = not_found sbuild
