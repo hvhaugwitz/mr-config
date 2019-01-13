@@ -1,3 +1,4 @@
 [$HOME/.config/vcsh/repo.d/gnupg.git]
 checkout = vcsh clone 'https://github.com/hvhaugwitz/gnupg-config.git' 'gnupg'
+post_checkout = chmod -R u=rwX,g=,o= ~/.gnupg/
 skip = not_found gpg
