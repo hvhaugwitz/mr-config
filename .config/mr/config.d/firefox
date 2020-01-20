@@ -1,11 +1,3 @@
 [$HOME/.config/vcsh/repo.d/firefox.git]
 checkout = vcsh clone 'https://github.com/hvhaugwitz/firefox-config.git' 'firefox'
 skip = not_found firefox
-
-[$HOME/.config/vcsh/repo.d/pentadactyl.git]
-checkout = vcsh clone 'https://github.com/hvhaugwitz/pentadactyl-config.git' 'pentadactyl'
-skip = not_found firefox
-
-[$HOME/.pentadactyl/plugins/buftabs]
-checkout = git clone 'https://github.com/grassofhust/buftabs' 'buftabs'
-skip = not_found firefox
